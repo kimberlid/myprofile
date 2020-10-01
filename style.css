@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #111;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+canvas {
+  display: block;
+  /* vertical-align:bottom; */
+}
+
+/* ---- stats.js ---- */
+
+.count-particles {
+  background: #42426d;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #416e6e;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #0e0809;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.typed-text {
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  color: azure;
+}
+
+#about {
+  padding: 50px;
+  width: 50%;
+  position: relative;
+  color: azure;
+}
+
+#contact {
+  padding: 50px;
+  width: 50%;
+  position: relative;
+  color: azure;
+}
+
+/* .contact-link {
+  display: flex;
+  position: relative;
+  color: #600079;
+  letter-spacing: 4px;
+} */
+
+#links {
+  display: flex;
+  padding: 50px;
+  width: 50%;
+  position: relative;
+  color: azure;
+}
+
+/* h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+} */
+::selection {
+  color: #600079;
+  background: black;
+}
+
+h2 {
+  color: #600079;
+}
