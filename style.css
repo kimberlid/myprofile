@@ -98,11 +98,9 @@ canvas {
 } */
 
 #links {
-  display: flex;
   padding: 50px;
   width: 50%;
   position: relative;
-  color: azure;
 }
 
 /* * h1 {
