@@ -118,7 +118,8 @@ canvas {
     width: 100%;
   }
 } */
-*/ ::selection {
+
+::selection {
   color: #600079;
   background: black;
 }
